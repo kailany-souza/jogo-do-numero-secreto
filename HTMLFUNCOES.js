@@ -28,7 +28,7 @@ function exibirTextoNaTela (tag, texto) {
 };
 
 function exibirMensagemInicial () {
-    exibirTextoNaTela (`h2`, `Joguinho do numerinho secretinho`);
+    exibirTextoNaTela (`h1`, `jogo do numero secreto`);
     exibirTextoNaTela (`p`, `escolha um numero entre 1 e 10`); // criado essa funcao para reduzir o codigo na linha 73
 }
 
