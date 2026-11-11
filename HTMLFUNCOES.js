@@ -29,7 +29,7 @@ function exibirTextoNaTela (tag, texto) {
 
 function exibirMensagemInicial () {
     exibirTextoNaTela (`h1`, `jogo do numero secreto`);
-    exibirTextoNaTela (`p`, `escolha um numero entre 1 e 100`); // criado essa funcao para reduzir o codigo na linha 73
+    exibirTextoNaTela (`p`, `escolha um numero entre 1 e 50`); // criado essa funcao para reduzir o codigo na linha 73
 }
 
 exibirMensagemInicial ();
